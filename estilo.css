@@ -1,0 +1,36 @@
+/* FONDO DEL INICIO */
+.hero-ai {
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url('IMG/FONDOR/photo-1441984904996-e0b6ba687e04.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 45vh; 
+}
+
+
+/* COLOR DE FONDO GENERAL DE LA PÁGINA */
+body {
+    background-color: #faf8f5; 
+    color: #212529; 
+}
+
+
+/* COLOR DEL MENÚ */
+.nav-link {
+    color: #ffffff !important;
+}
+
+
+/* ANIMACIÓN DE LAS TARJETAD */
+.card-altoporte-ai {
+    transition: transform 0.3s ease;
+}
+
+.card-altoporte-ai:hover {
+    transform: translateY(-10px);
+}
+
+
+/* ACCESIBILIDAD A11Y*/
+a:focus, button:focus {
+    outline: 4px solid #ffc107 !important;
+}
